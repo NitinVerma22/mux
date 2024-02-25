@@ -1,0 +1,138 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: black;
+   }
+   .app{
+       height: 100vh;
+       width: 450px;
+       margin: auto;
+       background-color: white;
+   }
+   header{
+       background-color: rgb(245, 70, 26);
+       color: white;
+       height: 60px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   .nam{
+    font-size: 40px;
+    font-weight: 1200;
+   }
+   .profile{
+       height: 160px;
+       display: flex;
+       background-color: rgb(236, 95, 60);
+   }
+   .info-box{
+       height: 200px;
+       /* background-color: aquamarine; */
+       width: 50%;
+       display: inline-flex;
+      align-items: center;
+      justify-content: center;
+       
+   }
+   info{
+       color: red;
+       text-shadow: 2cap;
+   }
+   .name{
+       font-size: 20px;
+       color: rgb(151, 225, 13);
+       font-family: Arial, Helvetica, sans-serif;   
+   }
+   #idno{
+     font-size: 13px;
+     color: white;
+   }
+   
+   .picbox{
+       height: 170px;
+       /* background-color: rgb(185, 67, 167); */
+       width: 48%;
+       display: inline-flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .pic{
+       height: 140px;
+       background-color: white;
+       background-image: url(/img/profile.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       width: 142px;
+       border-radius: 100%;
+   }
+   .infoboxex{
+    height: 30px;
+    width: 95%;
+    margin-top: 1.4%;
+    margin-left: 2.5%;
+    border: solid 0.5px black;
+   }
+.setting{
+    height: 80%;
+    width: 70%;
+    /* background-color: blueviolet; */
+    font-size: 18px;
+    margin: 4px;
+    display: inline-block;
+    /* padding: 5px; */
+}
+.edit-box{
+  width: 20%;
+  height: 80%;
+  /* background-color: aqua; */
+  display: inline-block;
+}
+.btn2{
+    border: solid 1px black;
+    height: auto;
+    width: 65px;
+    margin: 4px;
+    
+}
+.btn2 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+footer{
+    height: 50px;
+    margin-top: 30px;
+    background-color: rgb(220, 72, 18);
+    /* position: fixed; */
+}
+.footbuttons{
+    height: 38px;
+    width: 38px;
+    background-color:blanchedalmond ;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.footbutton1{
+    background-image: url(/img/homeicon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footbutton2{
+    background-image: url(/img/softwareicon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footbutton3{
+    background-image: url(/img/profile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footbutton4{
+    background-image: url(/img/refericon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,134 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+ background-color: black;
+}
+.app{
+    height: 100vh;
+    width: 450px;
+    margin: auto;
+    background-color: white;
+}
+header{
+    background-color: rgb(245, 70, 26);
+    color: white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nam{
+ font-size: 40px;
+ font-weight: 1200;
+}
+.profile{
+    height: 170px;
+    display: flex;
+    background-color: rgb(236, 95, 60);
+}
+.info-box{
+    height: 200px;
+    /* background-color: aquamarine; */
+    width: 50%;
+    display: inline-flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+info{
+    color: red;
+    text-shadow: 2cap;
+}
+.name{
+    font-size: 20px;
+    color: rgb(151, 225, 13);
+    font-family: Arial, Helvetica, sans-serif;   
+}
+#idno{
+  font-size: 13px;
+  color: white;
+}
+
+.picbox{
+    height: 170px;
+    /* background-color: rgb(185, 67, 167); */
+    width: 48%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic{
+    height: 140px;
+    background-color: white;
+    background-image: url(/img/profile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 142px;
+    border-radius: 100%;
+}
+.earning{
+    height: 40px;
+    background-color: burlywood;
+    color: currentColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.earning-categories{
+    height: 60px;
+    width: 160px;
+    background-color: coral;
+    margin-top: 18px;
+    display: inline-block;
+    margin-left: 40px;
+    border-radius: 20px;
+    /* margin-right: 20px; */
+}
+.money{
+    font-size: 25px;
+    margin-left: 44px;
+    margin-bottom: 8px;
+    color: white;
+}
+.category{
+    font-size: 18px;
+    margin: 6px;
+    margin-left: 10px;
+}
+footer{
+    height: 50px;
+    margin-top: 50px;
+    background-color: rgb(220, 72, 18);
+    /* position: fixed; */
+}
+.footbuttons{
+    height: 38px;
+    width: 38px;
+    background-color:blanchedalmond ;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.footbutton1{
+    background-image: url(/img/homeicon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footbutton2{
+    background-image: url(/img/softwareicon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footbutton3{
+    background-image: url(/img/profile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footbutton4{
+    background-image: url(/img/refericon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}

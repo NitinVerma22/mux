@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bankdetails{
+    margin-top: 3.5vh;
+    height: 86.5vh;
+    /* background-color: aqua; */
+
+}
+.rows{
+    margin-left: 12px;
+    height: 35px;
+    width: 94%;
+    /* background-color: blue; */
+    margin-top: 10px;
+    display: inline-flex;
+}
+.type{
+    height:35px ;
+    width: 40%;
+    display: inline-flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-size: 20px;
+    /* background-color: blueviolet; */
+    
+}
+.inputboxes{
+    height:35px ;
+    width: 60%;
+    /* display: inline-flex; */
+    /* background-color: rgb(43, 226, 58); */
+}
+.txtbox{
+    height: 35px;
+    width: 100%;   
+}
+#chk{
+    margin: 10px;
+}
+#chktxt{
+    margin: 8px;
+    font-size: 16px;
+}
+.cntr{
+    height: 35px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+height: 28px;
+width: 67px;
+border-radius: 8px;
+
+background-color: blue;
+}
+.btn a{
+    padding-left: 3.5px;
+    text-decoration: none;
+    color: white;
+}

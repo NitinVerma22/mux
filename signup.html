@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <script src="/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <header>
+         <div class="logo">MUX EARN</div>
+        </header>
+        <main>
+      <div class="login-signup-box">
+        <a href="/login.html"><div class="login-btn-box">Login</div></a>
+        <a href="/signup.html"><div class="signup-btn-box">Signup</div></a> 
+      </div>
+      <form action="php" method="post">
+         <div class="signup-form-box">
+          <div class="signup-form">
+            <!-- icons and input line -->
+            <div class="items-box">
+              <div class="icons icon-img1" ></div>
+              <input type="text" class="input-line" placeholder="User Name">
+            </div> 
+            <div class="items-box icon-img2" >
+              <div class="icons"></div>
+              <input type="text" class="input-line " placeholder="9912345678" onkeyup="val(this)">
+              
+            </div>
+            <div id="error"></div> 
+            <div class="items-box icon-img3" >
+              <div class="icons"></div>
+              <input type="email" class="input-line" placeholder="abc@email.com">
+            </div> 
+            <div class="items-box icon-img4" >
+              <div class="icons"></div>
+              <input type="text" class="input-line" placeholder="Refer Code">
+            </div> 
+            <div class="items-box icon-img5" >
+              <div class="icons"></div>
+              <input type="password" class="input-line" placeholder="Create Password" onchange="passval(this)">
+            </div>
+            <div id="passval"></div> 
+            <a class="sig-btn" href="/login.html"><div class="sign-btn"><button type="submit" class="sign-btn">signup</form></button></div></a> 
+             <a  class="new" href="/login.html">Already have a account?</a>
+          </div>
+         </div>
+        </form>
+        </main>
+         </div>
+</body>
+</html>
